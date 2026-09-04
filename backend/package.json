@@ -1,0 +1,28 @@
+{
+  "name": "ebook-project",
+  "version": "1.0.0",
+  "description": "A Full-Stack eBook creator app using MERN stack, styled with Tailwind CSS, and powered by Google Gemini AI.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev" : "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ameen7sha/eBook-Creator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ameen7sha/eBook-Creator/issues"
+  },
+  "homepage": "https://github.com/ameen7sha/eBook-Creator#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
