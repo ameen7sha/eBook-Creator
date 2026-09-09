@@ -25,9 +25,9 @@ const bookSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    subtile: {
+    subtitle: {
         type: String,
-        default: true,
+        default: "",
     },
     author: {
         type: String,
@@ -35,7 +35,7 @@ const bookSchema = new mongoose.Schema({
     },
     coverImage: {
         type: String,
-        default: true,
+        default: "",
     },
     chapters: [chapterSchema],
     status: {

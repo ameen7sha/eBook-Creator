@@ -75,7 +75,7 @@ exports.getProfile = async (req, res)=>{
 
 exports.updateProfile = async (req, res)=>{
     try{
-        const user = await User.findById(req.body.id);
+        const user = await User.findById(req.user.id);
         if(user){
             user.name = req.body.name || user.name;
             const updatedUser = await user.save();
